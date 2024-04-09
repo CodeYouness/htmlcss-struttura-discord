@@ -16,7 +16,7 @@
         <section class="nav-bar">
             <img src="./img/logo.svg" alt="discord_logo">
             <nav>
-                <ul>
+                <ul id="header_link">
                     <li>Scarica</li>
                     <li>Perchè Discord</li>
                     <li>Nitro</li>
@@ -34,7 +34,7 @@
                 architecto vitae excepturi a laboriosam cupiditate. Iure maxime iusto enim iste, voluptas modi
                 obcaecati! Labore, in nostrum?</p>
             <button> &ShortDownArrow; Scarica per Mac </button>
-            <button> Apri Discord nel tuo Browser</button>
+            <button id="black-button"> Apri Discord nel tuo Browser</button>
         </section>
 
     </header>
@@ -44,50 +44,125 @@
         <!-- prima section -->
         <section>
             <img src="./img/item1.svg" alt="first_item">
-
-            <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed amet dolores, cumque qui odit eos placeat
-                iusto, explicabo similique doloribus repellendus at debitis quo. Adipisci perferendis odio aperiam eius
-                hic.</p>
+            <div class="container">
+                <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed amet dolores, cumque qui odit eos
+                    placeat
+                    iusto, explicabo similique doloribus repellendus at debitis quo. Adipisci perferendis odio aperiam
+                    eius
+                    hic.</p>
+            </div>
         </section>
 
         <!-- seconda section -->
         <section>
             <img src="./img/item2.svg" alt="second_item">
-            <h1>Dove trovarsi è facile</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel recusandae debitis accusamus vitae ab ex
-                odit deleniti ullam, aliquid dicta labore quo officiis, nihil inventore dignissimos facilis laboriosam
-                qui itaque!
-            </p>
+            <div class="container">
+                <h1>Dove trovarsi è facile</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel recusandae debitis accusamus vitae ab
+                    ex
+                    odit deleniti ullam, aliquid dicta labore quo officiis, nihil inventore dignissimos facilis
+                    laboriosam
+                    qui itaque!
+                </p>
+            </div>
         </section>
 
         <!-- terza section -->
         <section>
+
             <img src="./img/item3.svg" alt="second_item">
-            <h1>Dove trovarsi è facile</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel recusandae debitis accusamus vitae ab ex
-                odit deleniti ullam, aliquid dicta labore quo officiis, nihil inventore dignissimos facilis laboriosam
-                qui itaque!
-            </p>
+            <div class="container">
+                <h1>Da pochi a un fandom</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel recusandae debitis accusamus vitae ab
+                    ex
+                    odit deleniti ullam, aliquid dicta labore quo officiis, nihil inventore dignissimos facilis
+                    laboriosam
+                    qui itaque!
+                </p>
+            </div>
         </section>
 
         <!-- quarta section -->
-        <section>
+        <section id="last_section">
             <h1>Tecnologia affidabile per ternersi in contatto</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto labore veniam quia adipisci culpa non cum
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto labore veniam quia adipisci culpa non
+                cum
                 at corrupti quos omnis voluptate eos amet eveniet, laborum repellat quod sit laboriosam perferendis?
             </p>
             <img src="./img/item4-big.svg" alt="">
             <h2>Pronto a iniziare la tua avventura?</h2>
-            <button> &ShortDownArrow; Scarica per Mac </button>
+            <button class="purple_button"> &ShortDownArrow; Scarica per Mac </button>
 
         </section>
-
 
     </body>
 
     <footer>
 
+        <!-- scatola per centratura -->
+        <div class="footer_container">
+
+            <!-- scatola per display=flex -->
+            <div class="upper_footer">
+                <!-- sezione con lingua e social -->
+                <section>
+                    <h3>Il tuo posto per parlare</h3>
+                    <img src="./img/ita.png" alt="">
+                    <span>Italiano &darr;</span>
+                </section>
+
+                <!-- sezione con liste -->
+                <section class="footer_link">
+
+                    <ul>
+                        <li>Prodotto</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+
+                    <ul>
+                        <li>Compagnia</li>
+                        <li>Chi siamo</li>
+                        <li>Lavora con noia</li>
+                        <li>Marchio</li>
+                        <li>Redazione</li>
+                        <li>Negozio</li>
+                    </ul>
+
+                    <ul>
+                        <li>Risorse</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+
+                    <ul>
+                        <li>Norme</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                </section>
+            </div>
+            <hr>
+            <section>
+                <img src="./img/logo.svg" alt="discord_logo">
+                <button class="purple_button">Registrati</button>
+            </section>
+        </div>
     </footer>
 
 </body>
