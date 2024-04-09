@@ -29,12 +29,15 @@
 
         <!-- jumbotron -->
         <section class="jumbotron">
-            <h1>Il tuo posto per parlare</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum aspernatur consequuntur, autem soluta
-                architecto vitae excepturi a laboriosam cupiditate. Iure maxime iusto enim iste, voluptas modi
-                obcaecati! Labore, in nostrum?</p>
-            <button> &ShortDownArrow; Scarica per Mac </button>
-            <button id="black-button"> Apri Discord nel tuo Browser</button>
+            <h1 class="white">Il tuo posto per parlare</h1>
+            <p>Che tu faccia parte di un club scolastico, gruppo di gamer,comunità artistica mondiale, o semplicemente
+                di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare
+                ogni giorno e ritrovarsi più spesso.
+            </p>
+            <div class="jumbotron_header">
+                <button> &ShortDownArrow; Scarica per Mac </button>
+                <button id="black-button"> Apri Discord nel tuo Browser</button>
+            </div>
         </section>
 
     </header>
@@ -106,14 +109,16 @@
             <!-- scatola per display=flex -->
             <div class="upper_footer">
                 <!-- sezione con lingua e social -->
-                <section>
+                <section class="social_link">
                     <h3>Il tuo posto per parlare</h3>
-                    <img src="./img/ita.png" alt="">
-                    <span>Italiano &darr;</span>
+                    <div class="language_selection">
+                        <img src="./img/ita.png" alt="language_flag" id="language_flag">
+                        <span>Italiano &darr;</span>
+                    </div>
                 </section>
 
                 <!-- sezione con liste -->
-                <section class="footer_link">
+                <nav class="footer_link">
 
                     <ul>
                         <li>Prodotto</li>
@@ -155,14 +160,19 @@
                         <li>Sicurezza</li>
                         <li>Assistenza</li>
                     </ul>
-                </section>
+                </nav>
+
             </div>
+
             <hr>
-            <section>
+
+            <section class="down_footer">
                 <img src="./img/logo.svg" alt="discord_logo">
                 <button class="purple_button">Registrati</button>
             </section>
+
         </div>
+
     </footer>
 
 </body>

@@ -3,8 +3,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+/* background image */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* lista nav-bar */
 .nav-bar {
@@ -20,19 +27,47 @@
     justify-content: space-between;
 }
 
-ul>li {
+li {
     list-style-type: none;
 }
 
-nav>ul>li {
+#header_link>li {
     padding: 0 1rem;
 }
 
 /* img jumbotron */
 .jumbotron {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1,
+p,
+.jumbotron_header {
+    text-align: center;
+}
+
+h1 {
+    margin: 10rem 0 1rem;
+    word-spacing: 3px;
+    font-size: 3rem;
+}
+
+p {
+    word-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+.jumbotron_header>button {
+    margin: 1rem 1rem 4rem;
+}
+
+.white,
+.nav-bar,
+#black-button,
+.purple_button,
+footer {
+    color: white;
 }
 
 /* display flex */
@@ -51,34 +86,38 @@ body>section {
 /* Grafica buttons */
 button {
     border: none;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 1rem;
     font-size: 1rem;
 }
 
 #black-button {
     background-color: black;
-    color: white;
 }
 
+.purple_button {
+    background-color: #7288d7;
+}
+
+/* parte footer */
 footer {
     background-color: #23272a;
-    color: white;
 }
 
 .footer_container {
     margin: 0 auto;
     max-width: 80%;
+    padding: 3rem;
 }
 
 /* link del footer */
 .footer_link {
-    width: 60%;
+    width: 80%;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.footer_container>section {
+.down_footer {
     display: flex;
     justify-content: space-between;
 }
@@ -90,4 +129,14 @@ h3 {
 
 .upper_footer {
     justify-content: space-between;
+}
+
+.footer_link>ul>li,
+h3,
+.language_selection {
+    padding: 0.5rem 0;
+}
+
+hr {
+    margin: 2rem 0 1rem;
 }
